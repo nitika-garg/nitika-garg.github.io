@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background-blend-mode: soft-light;
 }
 
 /* vertically center banner section */
