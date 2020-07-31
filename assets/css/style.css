@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
-  color: #fff;
+  /* background: #0563bb; */
+  color: #333333;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -54,8 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #0678e3;
+  color: #AAAAAA;
+  /* background: #AAAAAA; */
   transition: background 0.2s ease-in-out;
 }
 
@@ -339,7 +339,7 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 10px;
   padding-bottom: 10px;
   position: relative;
@@ -476,11 +476,13 @@ section {
   background-color: #0563bb;
 }
 .skill-box{
-  max-width: 20%;
+  /* max-width: 20%;
   margin: 1.7rem;
   display: flex;
   min-width: 200px;
-  margin-left: 0px;
+  margin-left: 0px; */
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 /*--------------------------------------------------------------
 # Resume
@@ -746,6 +748,7 @@ section {
   padding: 10px 10px 10px 10px;
   transition: all ease-in-out 0.3s;
   background:#F9F9F9;
+  width: 100%;
   /* box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05); */
   
   
@@ -764,8 +767,8 @@ section {
 }
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -792,7 +795,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 500;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 45px 0;
   font-size: 22px;
   font-family: "Raleway", sans-serif;
 }
@@ -969,20 +972,23 @@ section {
 --------------------------------------------------------------*/
 .info {
   width: 100%;
-  display: flex
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 40px;
 }
 
 .info i {
   font-size: 20px;
   color:whitesmoke;
-  float: left;
+  /* float: left;
   width: 30px;
-  height: 44px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+  /* height: 44px; */
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  /* border-radius: 50px; */
+  /* transition: all 0.3s ease-in-out; */ 
+  margin-right: 1%;
 }
 
 .contact .info h4 {
